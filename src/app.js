@@ -1,7 +1,7 @@
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
 const get = require('axios');
 
-require('dotenv').config({ path: './.env' });
+require('dotenv').config();
 const logger = require('./logger');
 
 const client = new Client({
